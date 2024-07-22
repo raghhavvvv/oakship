@@ -11,9 +11,10 @@
         <title>Home</title>
         <style>
             body {
-                background-image: url('shipdark.png');
+                background-image: url('slider1.png');
                 background-size: 100% 650px;
                 background-repeat: no-repeat;
+                transition: background-image 1s ease-in-out;
             }
         </style>
         <style>
@@ -42,16 +43,16 @@
             <div class="burger-menu" style="display: inline-block;">
                 <div class="burger-icon" onclick="toggleDropdown()">☰</div>
                 <div class="dropdown-content" id="dropdownMenu">
-                    <a href = "index2.html" class="btn" style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif; >Contact Us</a>
-                    <a href = "index3.html" class="btn"style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif>Careers</a>
+                    <a href = "contactus.html" class="btn" style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif; >Contact Us</a>
+                    <a href = "careers.html" class="btn"style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif>Careers</a>
                     <a href = "index.html#network" class="btn"style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif id="networkingbtn">Network</a>
                     <a href = "index.html#ourservices" class="btn"style="float: right;font-family: Istok Web;font-weight: bolder;", sans-serif>Our Services</a>
                     <a href = "index.html#aboutus" class="btn"style="float: right;font-family: Istok Web;font-weight: bolder;", sans-serif>About Us</a>
 
                 </div>
             </div>
-                <a href = "index2.html" class="btn" style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif; >Contact Us</a>
-                <a href = "index3.html" class="btn"style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif>Careers</a>
+                <a href = "contactus.html" class="btn" style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif; >Contact Us</a>
+                <a href = "careers.html" class="btn"style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif>Careers</a>
                 <a href = "#network" class="btn"style="float: right; font-family: Istok Web;font-weight: bolder;", sans-serif>Network</a>
                 <a href = "#ourservices" class="btn"style="float: right;font-family: Istok Web;font-weight: bolder;", sans-serif>Our Services</a>
                 <a href = "#aboutus" class="btn"style="float: right;font-family: Istok Web;font-weight: bolder;", sans-serif>About Us</a>
@@ -64,9 +65,9 @@
             <h1 class = "landingheader2">YOUR FREIGHT, OUR EXPERTISE</h1>
             
         </div>
-            <hr width="40%" size="2" color="black" id = "hr1">
-            <h1 id = "aboutus">WHO WE ARE</h2>
-                <hr width="40%" size="2" color="black" style="margin-top: -20px; margin-right: 0px;">
+            <hr width="38%" size="2" color="black" id = "hr1">
+            <h1 id = "aboutus">WHO WE ARE</h1>
+                <hr width="38%" size="2" color="black" style="margin-top: -25px; margin-right: 0px;">
             <p id="intro1">Established in 2005, OAK Shipping Services Pvt Ltd has been a trusted
                 leader in 
                 the logistics sector for almost two decades.
@@ -101,9 +102,9 @@
                 <img src="Group 137 (1).png"class="valids" style="margin:0 40px;">
              </div>
         </div>
-        <hr width="40%" size="2" color="black" style="margin-top: 100px; margin-left: 0px;">
+        <hr width="38%" size="2" color="black" style="margin-top: 100px; margin-left: 0px;">
             <h1 id ="ourservices">OUR SERVICES</h1>
-                <hr width="40%" size="2" color="black" style="margin-top: -20px; margin-right: 0px;">
+                <hr width="38%" size="2" color="black" style="margin-top: -20px; margin-right: 0px;">
                 <p id="intro" style="text-align: center;">At OSSPL ,we offer a full spectrum of
                     logistics services. We leverage our extensive network and expertise 
                     to
@@ -152,7 +153,7 @@
                     </div>
                     
             <hr width="40%" size="2" color="black" style="margin-top: 100px; margin-left: 0px;" id="prefinal">
-            <h1 style="font-size: 40px; color: #342F91; font-family: Josefin Sans;text-align: center;", sans-serif;  id ="network">NETWORK</h2>
+            <h1 style="font-size: 43px; color: #342F91; font-family: Josefin Sans;text-align: center;", sans-serif;  id ="network">NETWORK</h2>
                 <hr width="40%" size="2" color="black" style="margin-top: -20px; margin-right: 0px;" id ="finalhr">
             <div class = "world-map">
                 <img src = "World Map.png" style="margin-top: 100px; margin-bottom: 100px;">
@@ -475,19 +476,20 @@
                     <a href="https://maps.app.goo.gl/KWGzGBwamVbVmATZ6?g_st=com.google.maps.preview.copy"><img src = "Location White Icon.png"height="20px" width="40px" class = "alsovalids"id = "maplogo"style="margin-left: 20px; margin-top: 20px; width : 40px;"></a>
                     <hr width="90%" size="1" color="white" class="footerhr">
                     <div style="display: inline-block; float:left; margin-left: 50px;">
-                    <h2 class="footerl" style="margin-left: 20px;">QUICK LINKS</h2>
+                    <h2 class="footerl" style="margin-left: 20px;" id ="quicklinks">QUICK LINKS</h2>
                     <ul class="socials">
                         <a href = "#aboutus" style="text-decoration: none;"><li class = "footerl">About Us</li></a>
                         <a href = "#ourservices" style="text-decoration: none;"><li class = "footerl">Our Services</li></a>
-                        <a href = "index3.html" style="text-decoration: none;"><li class = "footerl">Careers</li></a>
-                        <a href = "index2.html" style="text-decoration: none;"><li class = "footerl">Contact Us</li></a>
+                        <a href = "careers.html" style="text-decoration: none;"><li class = "footerl">Careers</li></a>
+                        <a href = "contactus.html" style="text-decoration: none;"><li class = "footerl">Contact Us</li></a>
                     </ul>
                 </div>
+                <p id = "copyrights">© 2021 OAK Shipping Services Pvt Ltd. All Rights Reserved</p>
                
                 <div class = "bottomright">
                     <h2 class="footerl" style="margin-right: 0px;">FIND US AT</h2>
                     <p style="margin:0px;color: white; font-family: Istok Web;", sans-serif>D-30, 2nd Floor, Acharya Niketan<br>
-                        Mayur Vihar Phase-I, New Delhi - 110091<br>
+                        Mayur Vihar Phase-I, New Delhi, India - 110091<br>
                         Tel: +91-11-43653300<br>
                         info@oakshipping.com
                     </p>
