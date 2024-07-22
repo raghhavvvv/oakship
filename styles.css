@@ -1135,6 +1135,14 @@ header a:hover {
         width: 150px;
         
     }
+    .valids{
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 5px;
+        white-space: nowrap;
+        height: 80px;
+        width: auto;
+    }
     .logo-link img{
         width: 150px;
         height: auto;
@@ -1266,17 +1274,19 @@ header a:hover {
         display: none;
     }
     #aboutus{
-        font-size: 25px!important;
-        margin-top: 250px!important;
+        font-size: 28px!important;
+        margin-top: 230px!important;
     
     }
     #ourservices{
         font-size: 22px!important;
-        margin-top: 30px!important;
+        margin-top: 10px!important;
     }
     #intro1{
-        width: 90%;
+        width: 75%;
         font-size: 13px;
+        margin-top: 75px;
+        margin-bottom: 50px;
     }
     #networkingbtn{
         display: none;
