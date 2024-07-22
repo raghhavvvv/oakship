@@ -1,0 +1,1275 @@
+.btn{
+    color: #151266;
+    text-decoration: none;
+    margin: 30px;
+    font-size: large;
+}
+.landingheader1{
+    color: white; font-family: Josefin Sans, sans-serif; font-size: 45; margin-bottom: 10px;
+}
+p{
+    color: black;
+    font-family: Istok Web,sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.logos{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.landingheader2{
+    margin-top : 0; color: white; font-size : 32; font-family: Josefin Sans, sans-serif;
+}
+.burger-menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.burger-menu .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.burger-menu .dropdown-content a:hover {background-color: #f1f1f1}
+
+.burger-icon {
+    display: none; /* Hidden by default, shown in media query */
+    cursor: pointer;
+}
+.logos-slide{
+    display: inline-block;
+    animation: 7s slide infinite linear;
+
+}
+#intro1{
+    text-align: center; width: 50%; margin-left: auto; margin-right: auto;
+}
+.logo-link:hover {
+    border-bottom: none;
+}
+.valids{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    white-space: nowrap;
+
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+.footer{
+    background-image:linear-gradient(#002332, #151266);
+    width: 100%;
+}
+.footer-content{
+    width: 100%;
+    height: 40vh;
+}
+.footerl{
+    color: white;
+    text-decoration: none;
+    font-family: Istok Web,sans-serif;
+    margin-left: -19px;
+}
+.alsovalids{
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+    height: 30px;
+    width: 30px;
+    
+}
+.bottomright{
+ float: right; text-align: right; margin-right: 70px;
+}
+li{
+    list-style-type: none;
+}
+.footerp{
+    color: white;
+    font-family: Istok Web,sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 10px;
+    text-align: center;
+    padding-left: 65px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.footerinput{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid white; /* Keep border color white */
+    opacity: 1;
+    font-family: Istok Web,sans-serif;
+    width: 400px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjusted for visibility */
+    color: white;
+}
+
+.footerinput::placeholder {
+    color: white;
+    opacity: 1; /* Full opacity for placeholder */
+}
+.footerbtn{
+    height: 30px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: 265px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: black;
+    font-family: Josefin Sans,sans-serif;
+    font-weight: bold;
+}
+.services{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.overlay1{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background-color: #000000;
+    display: inline-block;
+}
+.pin{
+    background: #2eb6d0;
+    position: absolute;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+
+}
+.pin::before{
+    content: '';
+    background: #2eb6d0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: pulse 1.3s ease-in-out infinite;
+
+}
+.pin span{
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border-radius: 3em;
+    padding: 0.3em 0.6em;
+    font-size: 0.9em;
+    visibility: hidden; /* Keep text hidden initially */
+    opacity: 0; /* Start fully transparent */
+    transition: visibility 0s, opacity 0.5s ease-in-out; /* Smooth transition for opacity and visibility */
+}
+
+.pin:hover span{
+    visibility: visible; /* Make text visible on hover */
+    opacity: 1; /* Transition to fully opaque */
+}
+.kolkata{
+    top: 57%;
+    left: 70%;
+
+}
+.mumbai{
+    top: 57.5%;
+    left: 66.5%;
+
+}
+.panaji{
+    top: 58.9%;
+    left: 66.5%;
+}
+.kochi{
+    top: 61%;
+    left: 66.8%;
+
+}
+.chennai{
+    top: 60%;
+    left: 68%;
+
+}
+.colombo{
+    top: 62%;
+    left: 68.6%;
+}
+.karachi{
+    top: 56.2%;
+    left: 63.7%;
+
+}
+.kuwait{
+    top: 55.5%;
+    left: 59.5%;
+}
+.dubai{
+    top: 55.8%;
+    left: 61.5%;
+}
+.salalah{
+    top: 58%;
+    left: 62%;
+}
+.aden{
+    top: 61%;
+    left: 58%;
+
+}
+.mombara{
+    top: 65%;
+    left: 57%;
+
+}
+.dareslam{
+    top: 66%;
+    left: 57%;
+}
+.nacala{
+    top: 69%;
+    left: 57%;
+
+}
+.beira{
+    top: 70%;
+    left: 56%;
+}
+.maputo{
+    top: 72%;
+    left: 56%;
+
+}
+.durban{
+    top: 73%;
+    left: 55.5%;
+}
+.elizabeth{
+    top: 75%;
+    left: 53.2%;
+}
+.capetown{
+    top: 74.3%;
+    left: 51.5%;
+
+}
+.walvisbay{
+    top: 71.5%;
+    left: 50.5%;
+
+}
+.boma{
+    top: 66%;
+    left: 50.5%;
+}
+.gentil{
+    top: 64.5%;
+    left: 49.5%;
+}
+.lagos{
+    top: 62.5%;
+    left: 46.3%;
+
+}
+.abidjan{
+    top: 62.5%;
+    left: 48.5%;
+
+}
+.dakar{
+    top: 59%;
+    left: 42.5%;
+
+}
+.rabat{
+    top: 52.5%;
+    left: 45%;
+}
+.barcelona{
+    top: 50%;
+    left: 47%;
+}
+.porto{
+    top: 49.5%;
+    left: 44.5%;
+}
+.marseille{
+    top: 48.5%;
+    left: 48.5%;
+}
+.venice{
+    top: 48.5%;
+    left: 50.3%;
+}
+.rotterdam{
+    top: 44.5%;
+    left: 48%;
+
+}
+.london{
+    top: 44.5%;
+    left: 46.8%;
+}
+.hamburg{
+    top: 42.5%;
+    left: 48.5%;
+}
+.reykjavik{
+    top: 37.5%;
+    left: 41.5%;
+}
+.bergen{
+    top: 40%;
+    left: 48%;
+
+}
+.murmansk{
+    top: 33%;
+    left: 56%;
+}
+.arkhangel{
+    top: 37%;
+    left: 56.5%;
+}
+.petersburg{
+    top: 40%;
+    left: 55%;
+}
+.quebec{
+    top: 46%;
+    left: 28%;
+}
+.boston{
+    top: 49%;
+    left: 28%;
+}
+.newyork{
+    top: 50%;
+    left: 26%;
+}
+.norfolk{
+    top: 52%;
+    left: 26%;
+
+}
+.charleston{
+    top: 53%;
+    left: 25%;
+}
+.miami{
+    top: 55.5%;
+    left: 24.5%;
+}
+.neworleans{
+    top: 54%;
+    left: 22.5%;
+
+}
+.tampico{
+    top: 56%;
+    left: 20.5%;
+
+}
+.veracruz{
+    top: 57.5%;
+    left: 20.5%;
+
+}
+.acapulco{
+    top: 59%;
+    left: 19.5%;
+}
+.losangeles{
+    top: 52.5%;
+    left: 14.5%;
+
+}
+.portland{
+    top: 49.5%;
+    left: 13%;
+}
+.victoria{
+    top: 47%;
+    left: 13%;
+}
+.juneau{
+    top: 41%;
+    left: 9.5%;
+}
+.colon{
+    top: 60%;
+    left: 24.5%;
+}
+.anchorage{
+    top: 40%;
+    left: 7%;
+
+}
+.monteria{
+    top: 61%;
+    left: 26%;
+
+}
+.cartagena{
+    top: 60.5%;
+    left: 27%;
+}
+.libertad{
+    top: 64.5%;
+    left: 25%;
+}
+.callao{
+    top: 67%;
+    left: 25.5%;
+}
+.nazea{
+    top: 70%;
+    left: 27.5%;
+}
+.antofagasta{
+    top: 73%;
+    left: 27.5%;
+}
+.valparaiso{
+    top: 75.5%;
+    left: 27%;
+
+}
+.bahia{
+    top: 77.5%;
+    left: 29.5%;
+}
+.montevideo{
+    top: 76.5%;
+    left: 31.5%;
+}
+.buenos{
+    top: 75%;
+    left: 30.5%;
+}
+.santos{
+    top: 73.5%;
+    left: 33.5%;
+
+}
+.rio{
+    top: 71.5%;
+    left: 34.5%;
+}
+.salvador{
+    top: 69%;
+    left: 36%;
+
+}
+.recife{
+    top: 67%;
+    left: 37%;
+
+}
+.belem{
+    top: 64.5%;
+    left: 34.5%;
+}
+.bizerte{
+    top: 51.5%;
+    left: 48.5%;
+}
+.alexandria{
+    top: 53.5%;
+    left: 53.5%;
+
+}
+.said{
+    top: 53.5%;
+    left: 55.5%;
+
+}
+.jeddah{
+    top: 56.5%;
+    left: 57%;
+
+}
+.sudan{
+    top: 59%;
+    left: 57.5%;
+
+}
+.vanino{
+    top: 46%;
+    left: 85%;
+}
+.saparo{
+    top: 47.5%;
+    left: 85%;
+}
+.tokyo{
+    top: 51%;
+    left: 84%;
+
+}
+.osaka{
+    top: 52.5%;
+    left: 84%;
+}
+.taipei{
+    top: 56%;
+    left: 79.5%;
+
+}
+.hongkong{
+    top: 57.5%;
+    left: 76.5%;
+}
+.kaohsiung{
+    top: 57%;
+    left: 79%;
+}
+.moulmein{
+    top: 59%;
+    left: 73%;
+}
+.bangkok{
+    top: 60.5%;
+    left: 74.5%;
+}
+.singapore{
+    top: 63%;
+    left: 74.5%;
+}
+.jakarta{
+    top: 66.5%;
+    left: 75.5%;
+}
+.dili{
+    top: 67%;
+    left: 79.5%;
+}
+.darwin{
+    top: 68.5%;
+    left: 81.5%;
+}
+.townsville{
+    top: 70%;
+    left: 86.5%;
+}
+.brisbane{
+    top: 73.5%;
+    left: 88%;
+
+}
+.sydney{
+    top: 75.5%;
+    left: 87.5%;
+
+}
+.melbourne{
+    top: 77%;
+    left: 86%;
+
+}
+.hobart{
+    top: 79%;
+    left: 86.5%;
+
+}
+.auckland{
+    top: 77%;
+    left: 94%;
+
+
+}
+.dunedin{
+    top: 80.5%;
+    left: 92%;
+}
+.adelaide{
+    top: 75.5%;
+    left: 83.5%;
+}
+.perth{
+    top: 73.5%;
+    left: 77.5%;
+
+}
+.world-map{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+}
+*{
+    box-sizing: border-box;
+}
+.world-map img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+@keyframes pulse {
+    100%{
+        opacity: 0;
+        transform: 
+        translate(-50%, -50%)
+        scale(2.5);
+    }
+    
+}
+header a:hover {
+    text-decoration: none; /* Remove the default underline */
+    border-bottom: 2px solid #151266; /* Make underline blue and thicker */
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.3s ease; 
+  }
+
+header.scrolled {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    height: 80px;
+}
+header{
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+#requestQuoteBtn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 5px;
+    width: 200px;
+    font-family: Josefin Sans,sans-serif;
+    font-weight: bolder;
+    
+}
+#aboutus{
+    color: #342F91; font-family: Josefin Sans;text-align: center; font-size: 40px, sans-serif;
+}
+
+#quoteForm {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 10px;
+    position: fixed; /* Make the form float */
+    top: 50%; /* Center the form vertically */
+    left: 50%; /* Center the form horizontally */
+    transform: translate(-50%, -50%); /* Adjust the form's position to truly center it */
+    z-index: 1050; /* Ensure the form is above other content */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
+    width: 300px; /* Set a fixed width */
+    display: none; /* Form is hidden by default */
+    font-family: Istok Web,sans-serif;
+}
+
+#quoteForm form {
+    display: flex;
+    flex-direction: column;
+    font-family: Istok Web,sans-serif;
+}
+
+#quoteForm input, #quoteForm select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Istok Web,sans-serif;
+}
+#hr1{
+    margin-top: 300px; margin-left: 0px;
+}
+
+
+#quoteForm button {
+    background-color: #151266;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Istok Web,sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.sticky.scrolled {
+    background-color: white; /* Opaque white background */
+    opacity: 1; /* Fully opaque */
+}
+.contact-form-container {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white; /* Sets the background color to white */
+    border-radius: 10px; /* Adds rounded borders */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    margin: 20px; /* Adds some margin around the container */
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Josefin Sans, sans-serif;
+}
+
+#contactForm button.footerbtn {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Example color, adjust based on your site's theme */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Josefin Sans, sans-serif;
+}
+
+#contactForm button.footerbtn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+#contactForm {
+    background-color: white; /* Sets the background color to white */
+    border-radius: 10px; /* Adds rounded borders */
+    padding: 20px; /* Adds some padding inside the form for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    font-family: Josefin Sans, sans-serif;
+}
+#closeFormBtn {
+    display: block;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#baseDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    background-image: url('transport-logistics-products 1.jpg'); /* Original background */
+    background-size: cover;
+    display: flex;
+    justify-content: space-between; /* Distribute child divs evenly */
+    transition: background-image 0.5s ease-in-out;
+}
+
+.verticalDiv {
+    position: relative; /* Ensure .hoverText is positioned correctly */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 19%;
+    background: linear-gradient(rgba(32, 29, 93, 0.5), rgba(9, 8, 44, 0.5));
+    transition: background-color 0.5s;
+}
+
+.verticalDiv:hover {
+    background: linear-gradient(rgba(32, 29, 93, 0.8), rgba(9, 8, 44, 0.8));
+}
+
+.verticalDiv img,
+.verticalDiv span {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.verticalDiv:hover img{
+    opacity: 0;
+}
+
+
+.verticalDiv .hoverText {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Istok Web, sans-serif;
+    width: 80%;
+}
+.verticalDiv:hover span {
+    position: absolute;
+    bottom: 70px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px; /* Adjust as needed */
+    font-weight: bold; /* Adjust as needed */
+    color: white; /* Adjust as needed */
+}
+
+.verticalDiv:hover .hoverText {
+    opacity: 1;
+    visibility: visible;
+}
+.verticalDiv span {
+    font-family: Josefin Sans, sans-serif;
+    color: #fff; /* Adjust text color as needed */
+    margin-top: 50px; /* Space between text and image */
+    font-weight: bolder;
+    font-size: 20px; /* Adjust text size as needed */
+}
+.baseDiv .verticalDiv:first-child {
+    margin-left: 0; /* Ensures the first element is at the extreme left */
+}
+
+.baseDiv .verticalDiv:last-child {
+    margin-right: 0; /* Ensures the last element is at the extreme right */
+}
+body{
+    margin: 0px;
+}
+/* Desktops and laptops */
+
+#quoteForm select, #quoteForm input[type="text"], #quoteForm input[type="email"], #quoteForm input[type="tel"], #quoteForm button {
+    width: 100%;
+    max-width: 300px; /* Adjust based on preference */
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    #requestQuoteBtn {
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    :root {
+        --sticky-header-height: 60px; 
+        --additional-offset: 10px; 
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    #aboutus, #ourservices, #network {
+        padding-top: calc(var(--sticky-header-height) + var(--additional-offset)); 
+        margin-top: calc((var(--sticky-header-height) + var(--additional-offset)) * -1);
+    }
+}
+
+#closeFormCross {
+    cursor: pointer;
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    .burger-icon {
+        display: block; /* Show burger icon */
+        position: relative;
+        top: -5px;
+        right: -170px;
+        font-size: 25px;
+        color: #151266;
+        
+    }
+    .burger-menu .dropdown-content {
+        display: none;
+        position: absolute;
+        left: 250px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        height: 210px;
+        width: 162px;
+    }
+    .burger-menu .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        position: relative;
+        left: -20px;
+        text-align: center;
+        margin: 0px;
+  
+    }
+
+}
+#contactForm button.footerbtn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+#contactForm {
+    background-color: white; /* Sets the background color to white */
+    border-radius: 10px; /* Adds rounded borders */
+    padding: 20px; /* Adds some padding inside the form for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    font-family: Josefin Sans, sans-serif;
+}
+
+.form-container {
+    width: 50%; /* Take up half of the body's width */
+    padding: 20px; /* Add some padding around the form */
+    background-color: white; /* Background color for the form */
+    margin-right: 40px; /* Adjust as needed for spacing from the right edge */
+    display: flex;
+    justify-content: flex-end; /* Aligns children (the form) to the right */
+    width: 100%;
+}
+
+/* Ensure the form itself is styled appropriately */
+.form-container form {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column; /* Stack the form elements vertically */
+    gap: 10px; /* Add some space between form elements */
+}
+
+.form-container button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between;
+/* This will place the content and form on opposite sides */
+}
+#ourservices{
+    color: #342F91; font-family: Josefin Sans;text-align: center; font-size: 40px, sans-serif;
+
+}
+
+.left-content, .right-form {
+    flex: 1; /* This makes both divs take up equal space. Adjust as needed */
+}
+
+/* Optional: Add some padding or margin to these containers for spacing */
+.left-content {
+    padding-right: 20px;
+
+    /* Adds some space between the left content and the form */
+}
+
+.right-form {
+    padding-left: 20px;
+
+}
+header a:hover {
+    text-decoration: none; /* Remove the default underline */
+    border-bottom: 2px solid #151266; /* Make underline blue and thicker */
+}
+@media (max-width: 768px) {
+    
+    
+    .footer-content {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        height: 200px;
+    
+    }
+
+    .footer-content > div, .footer-content form, .socials {
+        text-align: center;
+        margin: 10px 0; /* Adjust spacing */
+    }
+
+    .footerl, .footerp {
+        font-size: smaller; /* Adjust font size */
+    }
+
+    .socials li, .alsovalids {
+        margin: 5px; /* Adjust spacing for social icons */
+        display: inline-block; /* Ensure alignment */
+    }
+
+    /* Adjust the layout for the address and subscription sections */
+    .footer-content > div, .footer-content form {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%; /* Adjust width */
+    }
+
+    #requestQuoteBtn{
+        width: 40%; /* Full width buttons */
+        margin: 10px 0; /* Adjust spacing */
+        font-size: 10px;
+        position: relative;
+        top: 0px;
+        left: -50px;
+    }
+
+    #quoteForm {
+        width: 100%; /* Adjust form width */
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], select {
+        width: 100%; /* Full width form fields */
+        margin: 5px 0; /* Adjust spacing */
+    }
+    body{
+        background-size: 100% 400px!important;
+    }
+    #workwithus{
+        font-size: 14px;
+        position: relative;
+        left: 20px;
+        top: 80px;
+        width: 75%;
+        margin: 0;
+    }
+    .left-content{
+ 
+        width: 50%;
+    }
+    .right-form{
+        width: 160px;
+        position: relative;
+        top: 0px;
+        left: -10px;
+        margin: 0;
+        font-size: smaller;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .btn{
+        display: none;
+    }
+    .contact-info{
+        display: block;
+        position: relative;
+        left: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .contact-info2{
+        display: block;
+        position: relative;
+        left: 10px;
+        top: 60px;
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .alsovalids{
+        position: relative;
+        top: -33%;
+        left: -12px;
+        height: 15px;
+        width: auto;
+    }   
+    #linkedin{
+        top: -4%;
+        left: -25px;
+    }
+    #facebook{
+        top: -4%;
+        left: -25px;
+    }
+    .bottomright{
+        position: relative;
+        top: -100%;
+        left: 50px;
+        text-align: right;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 50px;
+        width: 150px;
+        
+    }
+    .logo-link img{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top: 10px;
+        left: -20px;
+    }
+    .formfields{
+        margin-bottom: 5px;
+    }
+    .footerl{
+        height: 20px;
+        margin: 0px;
+        position: relative;
+        top: 140px;
+        left: -60px;
+        margin-top: 15px;
+    }
+    .bottomright p {
+        height: 120px;
+        position: relative;
+        top: 140px;
+        left: -110px;
+        text-align: center;
+        font-size: 12px;
+        width: 250px;
+    }
+    .footerhr{
+        position: relative;
+        top: -40px;
+        display: block;
+    }
+    .socials{
+        display: none;
+    }
+
+    #footerquick{
+        display: none;
+    }
+    .finaldiv{
+        display: none;
+        margin: 0px;
+    }
+    #message{
+        height: 33.5px;
+    }
+    .heading3{
+        font-size: 20px;
+    }
+    .para3{
+        margin : 20px; text-align: center; color: white; font-family: Istok Web, sans-serif; font-size: 13; font-weight: bolder;
+
+
+    }
+    #landingdiv1{
+        position: relative;
+        top: -130px;
+    }
+    .landingheader1{
+        font-size: 23px;
+    }
+    .landingheader2{
+        font-size: 20px;
+    }
+    #hr1{
+        margin-top: 80px;
+    }
+    #intro{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px;
+    }
+    #basediv{
+        height: 500px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .vert{
+        height: 50px;
+    }
+    .verticalDiv span{
+        font-size: 10px;
+    }
+    .verticalDiv .hoverText{
+        font-size: 10px;
+        width: 100%;
+    }
+    .verticalDiv:hover span {
+        position: absolute;
+        bottom: 70px; /* Adjust as needed */
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 10px; /* Adjust as needed */
+        font-weight: bold; /* Adjust as needed */
+        color: white; /* Adjust as needed */
+    }
+    .world-map{
+        display: none;
+    }
+    #network{
+        display: none;
+    }
+    .footer{
+        height: 200px;
+        flex-direction: 0;
+        flex: 0;
+    }
+    .footer-content{
+        height: 200px;
+    }
+    #finalhr{
+        display: none;
+    }
+    #prefinal{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    #aboutus{
+        font-size: 22px;
+        margin-top: 10px!important;
+    
+    }
+    #ourservices{
+        font-size: 22px;
+        margin-top: 30px!important;
+    }
+    #intro1{
+        width: 90%;
+        font-size: 13px;
+    }
+    #networkingbtn{
+        display: none;
+    }
+    #maplogo{
+        height: auto;
+        width: 20px!important;
+        position: relative;
+        top: -62px;
+        left: -6px;
+    }
+
+}
+
