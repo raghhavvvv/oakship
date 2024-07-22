@@ -7,6 +7,10 @@
 .landingheader1{
     color: white; font-family: Josefin Sans, sans-serif; font-size: 45; margin-bottom: 10px;
 }
+#intro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 p{
     color: black;
     font-family: Istok Web,sans-serif;
@@ -190,10 +194,14 @@ li{
     background: #fff;
     border-radius: 3em;
     padding: 0.3em 0.6em;
-    font-size: 0.9em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #151266;
     visibility: hidden; /* Keep text hidden initially */
     opacity: 0; /* Start fully transparent */
     transition: visibility 0s, opacity 0.5s ease-in-out; /* Smooth transition for opacity and visibility */
+    box-shadow: #3f3d81 0px 0px 5px;
+    
 }
 
 .pin:hover span{
@@ -669,6 +677,9 @@ header{
     transition: background-color 0.3s ease;
     z-index: 1000;
 }
+#copyrights{
+    margin:0px;color: white; font-family: Istok Web; display: inline-block; position: relative; top: 50%; left: 19%!important;
+}
 #requestQuoteBtn {
     background-color: white;
     color: black;
@@ -683,7 +694,7 @@ header{
     
 }
 #aboutus{
-    color: #342F91; font-family: Josefin Sans;text-align: center; font-size: 40px, sans-serif;
+    color: #342F91; font-family: Josefin Sans;text-align: center; font-size: 43px!important;
 }
 
 #quoteForm {
@@ -790,7 +801,7 @@ html{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    height: 80%;
+    height: 60%;
     background-image: url('transport-logistics-products 1.jpg'); /* Original background */
     background-size: cover;
     display: flex;
@@ -841,7 +852,7 @@ html{
 }
 .verticalDiv:hover span {
     position: absolute;
-    bottom: 70px; /* Adjust as needed */
+    bottom: 30px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     font-size: 20px; /* Adjust as needed */
@@ -984,7 +995,7 @@ body{
 /* This will place the content and form on opposite sides */
 }
 #ourservices{
-    color: #342F91; font-family: Josefin Sans;text-align: center; font-size: 40px, sans-serif;
+    color: #342F91; font-family: Josefin Sans;text-align: center; font-size: 43px!important;
 
 }
 
@@ -1014,7 +1025,7 @@ header a:hover {
         display: block;
         padding: 10px;
         width: 100%;
-        height: 200px;
+        height: 400px;
     
     }
 
@@ -1046,7 +1057,7 @@ header a:hover {
         font-size: 10px;
         position: relative;
         top: 0px;
-        left: -50px;
+        left: 40px;
     }
 
     #quoteForm {
@@ -1058,7 +1069,7 @@ header a:hover {
         margin: 5px 0; /* Adjust spacing */
     }
     body{
-        background-size: 100% 400px!important;
+        background-size: 100% 650px!important;
     }
     #workwithus{
         font-size: 14px;
@@ -1103,18 +1114,18 @@ header a:hover {
     
     .alsovalids{
         position: relative;
-        top: -33%;
-        left: -12px;
+        top: 65%;
+        left: -165px;
         height: 15px;
         width: auto;
     }   
     #linkedin{
-        top: -4%;
-        left: -25px;
+        top: 95%;
+        left: -155px;
     }
     #facebook{
-        top: -4%;
-        left: -25px;
+        top: 95%;
+        left: -90px;
     }
     .bottomright{
         position: relative;
@@ -1141,14 +1152,14 @@ header a:hover {
         height: 20px;
         margin: 0px;
         position: relative;
-        top: 140px;
+        top: 120px;
         left: -60px;
         margin-top: 15px;
     }
     .bottomright p {
         height: 120px;
         position: relative;
-        top: 140px;
+        top: 120px;
         left: -110px;
         text-align: center;
         font-size: 12px;
@@ -1156,7 +1167,7 @@ header a:hover {
     }
     .footerhr{
         position: relative;
-        top: -40px;
+        top: 80px;
         display: block;
     }
     .socials{
@@ -1183,16 +1194,18 @@ header a:hover {
     }
     #landingdiv1{
         position: relative;
-        top: -130px;
+        top: -70px;
     }
     .landingheader1{
-        font-size: 23px;
+        font-size: 31px;
+        font-weight: bold;
     }
     .landingheader2{
-        font-size: 20px;
+        font-size:20px;
+        font-weight: bold;
     }
     #hr1{
-        margin-top: 80px;
+        margin-top: 150px;
     }
     #intro{
         width: 90%;
@@ -1204,12 +1217,20 @@ header a:hover {
         height: 500px;
         width: 100%;
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .verticalDiv{
+        width: 100%;
+        height: 100px;
     }
     .vert{
         height: 50px;
     }
     .verticalDiv span{
         font-size: 10px;
+        position: relative;
+        top: -20%;
     }
     .verticalDiv .hoverText{
         font-size: 10px;
@@ -1231,7 +1252,7 @@ header a:hover {
         display: none;
     }
     .footer{
-        height: 200px;
+        height: 250px;
         flex-direction: 0;
         flex: 0;
     }
@@ -1248,12 +1269,12 @@ header a:hover {
         display: none;
     }
     #aboutus{
-        font-size: 22px;
-        margin-top: 10px!important;
+        font-size: 25px!important;
+        margin-top: 250px!important;
     
     }
     #ourservices{
-        font-size: 22px;
+        font-size: 22px!important;
         margin-top: 30px!important;
     }
     #intro1{
@@ -1267,9 +1288,34 @@ header a:hover {
         height: auto;
         width: 20px!important;
         position: relative;
-        top: -62px;
-        left: -6px;
+        top: 64%;
+        left: -90px;
+    }
+    .verticalDiv img{
+        position: relative;
+        top: 15%;
+    }
+    .baseDiv{
+        background-size: cover;
+    }
+    #copyrights{
+        position: relative;
+        left: 17%!important;
+        top: 65%;
+        font-size: 6px;
+    }
+    #quicklinks{
+        display: none;
     }
 
 }
 
+@media (min-width: 1080px){
+ 
+    #copyrights{
+        position: relative;
+        left: 27%;
+  
+    }
+    
+}
