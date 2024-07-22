@@ -75,3 +75,25 @@ window.addEventListener("load", function() {
       })
     });
   });
+const backgroundImages = [
+    'slider1.png',
+    'slider2.png',
+    'slider3.png',
+    'slider4.png'
+];
+
+let currentImageIndex = 0;
+
+function changeBackground() {
+    currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+    document.body.style.backgroundImage = `url('${backgroundImages[currentImageIndex]}')`;
+}
+
+// Set initial background
+document.body.style.backgroundImage = `url('${backgroundImages[0]}')`;
+
+// Start changing background after the first interval
+setTimeout(() => {
+    changeBackground();
+    setInterval(changeBackground, 5000); // Change image every 5 seconds after the first change
+}, 5000);
