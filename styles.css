@@ -1298,10 +1298,10 @@ header a:hover {
     .baseDiv{
         background-size: cover;
     }
-    #copyrights{
+     #copyrights{
         position: relative;
-        left: 17%!important;
-        top: 65%;
+        left: 17vw!important;
+        top: 13vh;
         font-size: 6px;
     }
     #quicklinks{
