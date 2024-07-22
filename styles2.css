@@ -693,7 +693,8 @@ header a:hover {
         font-size: 7px;
         display: inline-block;
         position: relative;
-        left: 50px!important;
+        top: 13vh;
+        left: 12vw!important;
     }
     .bottomright{
         position: relative;
