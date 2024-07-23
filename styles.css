@@ -201,6 +201,7 @@ li{
     opacity: 0; /* Start fully transparent */
     transition: visibility 0s, opacity 0.5s ease-in-out; /* Smooth transition for opacity and visibility */
     box-shadow: #3f3d81 0px 0px 5px;
+    z-index: 100;
     
 }
 
