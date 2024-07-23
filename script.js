@@ -71,7 +71,7 @@ window.addEventListener("load", function() {
         body: data,
       })
       .then(() => {
-        alert("Thank You!");
+        alert("Thank You, we will get in touch with you soon!");
       })
     });
   });
