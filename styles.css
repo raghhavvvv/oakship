@@ -1305,8 +1305,8 @@ header a:hover {
         position: relative;
         top: 15%;
     }
-    .baseDiv{
-        background-size: cover;
+    #baseDiv{
+        background-size: 100% 100%;
     }
     #copyrights{
         position: relative;
