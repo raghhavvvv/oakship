@@ -692,9 +692,9 @@ header a:hover {
         display: none;
     }
     #copyrights{
-        font-size: 7px;
-        position: fixed;
-        bottom: 0;
+        font-size: 6px;
+        position: relative;
+        top: 160px;
     }
     .bottomright{
         position: relative;
