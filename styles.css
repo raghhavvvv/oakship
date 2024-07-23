@@ -923,7 +923,7 @@ body{
         display: block; /* Show burger icon */
         position: relative;
         top: 0px;
-        right: -170px;
+        right: -150px;
         font-size: 30px;
         color: #151266;
         
@@ -945,7 +945,7 @@ body{
         text-decoration: none;
         display: block;
         position: relative;
-        left: -10px;
+        left: -20px;
         text-align: center;
         margin: 0px;
   
