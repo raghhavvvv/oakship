@@ -694,7 +694,8 @@ header a:hover {
     #copyrights{
         font-size: 6px;
         position: relative;
-        top: 160px;
+        top: 210px!important;
+
     }
     .bottomright{
         position: relative;
