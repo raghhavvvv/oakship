@@ -1308,7 +1308,7 @@ header a:hover {
     #copyrights{
         position: relative;
         height: 10px;
-        bottom: 0;
+        top:200px;
         font-size: 6px;
     }
     #quicklinks{
