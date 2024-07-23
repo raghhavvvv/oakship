@@ -26,6 +26,12 @@ p{
     animation: 7s slide infinite linear;
 
 }
+#copyrights{
+    font-size: 7px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo-link:hover {
     border-bottom: none;
 }
@@ -382,9 +388,9 @@ html{
     .burger-icon {
         display: block; /* Show burger icon */
         position: relative;
-        top: -5px;
+        top: 0px;
         right: -170px;
-        font-size: 25px;
+        font-size: 30px;
         color:#151266;
     }
     .burger-menu .dropdown-content {
@@ -397,7 +403,7 @@ html{
         z-index: 1;
     }
     .burger-menu .dropdown-content a {
-        color: black;
+        color: #151266;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -590,7 +596,7 @@ header a:hover {
     }
 
     .right-form {
-        margin-top: 95px;
+        margin-top: 5px;
     }
     
     .alsovalids{
@@ -687,10 +693,8 @@ header a:hover {
     }
     #copyrights{
         font-size: 7px;
-        display: inline-block;
-        position: relative;
-        top: 18vh!important;
-        left: 12vw!important;
+        position: fixed;
+        bottom: 0;
     }
     .bottomright{
         position: relative;
