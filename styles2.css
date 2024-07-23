@@ -692,10 +692,10 @@ header a:hover {
         display: none;
     }
     #copyrights{
-        font-size: 6px;
+        font-size: 7px;
         position: relative;
         top: 160px!important;
-        left: 30px!important;
+        left: 20px!important;
     }
     .bottomright{
         position: relative;
