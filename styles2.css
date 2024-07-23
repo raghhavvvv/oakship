@@ -389,7 +389,7 @@ html{
         display: block; /* Show burger icon */
         position: relative;
         top: 0px;
-        right: -170px;
+        right: -150px;
         font-size: 30px;
         color:#151266;
     }
@@ -408,7 +408,7 @@ html{
         text-decoration: none;
         display: block;
         position: relative;
-        left: -10px;
+        left: -20px;
         text-align: center;
   
     }
