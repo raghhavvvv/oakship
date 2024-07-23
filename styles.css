@@ -922,9 +922,9 @@ body{
     .burger-icon {
         display: block; /* Show burger icon */
         position: relative;
-        top: -5px;
+        top: 0px;
         right: -170px;
-        font-size: 25px;
+        font-size: 30px;
         color: #151266;
         
     }
@@ -940,7 +940,7 @@ body{
         width: 162px;
     }
     .burger-menu .dropdown-content a {
-        color: black;
+        color: #151266;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -1070,7 +1070,7 @@ header a:hover {
         margin: 5px 0; /* Adjust spacing */
     }
     body{
-        background-size: 100% 650px!important;
+        background-size: 100% 550px!important;
     }
     #workwithus{
         font-size: 14px;
@@ -1275,17 +1275,17 @@ header a:hover {
     }
     #aboutus{
         font-size: 28px!important;
-        margin-top: 230px!important;
+        margin-top: 170px!important;
     
     }
     #ourservices{
-        font-size: 22px!important;
-        margin-top: 10px!important;
+        font-size: 28px!important;
+        margin-top: 0px!important;
     }
     #intro1{
         width: 75%;
         font-size: 13px;
-        margin-top: 75px;
+        margin-top: 35px;
         margin-bottom: 50px;
     }
     #networkingbtn{
@@ -1307,8 +1307,8 @@ header a:hover {
     }
     #copyrights{
         position: relative;
-        left: 15vw!important;
-        top: 15vh;
+        height: 10px;
+        bottom: 0;
         font-size: 6px;
     }
     #quicklinks{
