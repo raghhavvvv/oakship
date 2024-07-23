@@ -678,7 +678,7 @@ header{
     z-index: 1000;
 }
 #copyrights{
-    margin:0px;color: white; font-family: Istok Web; display: inline-block; position: relative; top: 50%; left: 19%!important;
+    margin:0px;color: white; font-family: Istok Web; display: inline-block; position: relative; top: 50%; left: 25%!important;font-size: 7px;
 }
 #requestQuoteBtn {
     background-color: white;
@@ -945,7 +945,7 @@ body{
         text-decoration: none;
         display: block;
         position: relative;
-        left: -20px;
+        left: -10px;
         text-align: center;
         margin: 0px;
   
@@ -1275,7 +1275,7 @@ header a:hover {
     }
     #aboutus{
         font-size: 28px!important;
-        margin-top: 170px!important;
+        margin-top: 140px!important;
     
     }
     #ourservices{
@@ -1308,7 +1308,7 @@ header a:hover {
     #copyrights{
         position: relative;
         height: 10px;
-        top: 160px;
+        top: 200px;
         font-size: 6px;
     }
     #quicklinks{
