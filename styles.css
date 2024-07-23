@@ -1249,6 +1249,7 @@ header a:hover {
         font-size: 10px; /* Adjust as needed */
         font-weight: bold; /* Adjust as needed */
         color: white; /* Adjust as needed */
+        margin-top: 40px;
     }
     .world-map{
         display: none;
