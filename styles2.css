@@ -607,14 +607,14 @@ header a:hover {
     #linkedin{
         position: relative;
         top: 200px;
-        left: -250px;
+        left: -245px;
         height: 20px;
         width: auto;
     }
     #facebook{
         position: relative;
         top: 200px;
-        left: -195px;
+        left: -185px;
         height: 20px;
         width: auto;
     }
@@ -681,7 +681,7 @@ header a:hover {
         height: auto;
         position: relative;
         top: 200px;
-        left: -90px;
+        left: -75px;
     }
     #quicklinks{
         display: none;
@@ -702,7 +702,7 @@ header a:hover {
     #instagram{
         position: relative;
         top: 200px;
-        left: -139px;
+        left: -127px;
         height: 20px;
         width: auto;
     
