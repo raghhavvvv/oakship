@@ -1121,14 +1121,14 @@ header a:hover {
     #linkedin{
         position: relative;
         top: 170px;
-        left: -250px;
+        left: -236px;
         height: 20px;
         width: auto;
     }
     #facebook{
         position: relative;
         top: 170px;
-        left: -191px;
+        left: -179px;
         height: 20px;
         width: auto;
     }
@@ -1251,6 +1251,7 @@ header a:hover {
     }
     .world-map{
         display: block;
+        margin-top: 50px;
     }
     .pin{
         display: none;
@@ -1299,7 +1300,7 @@ header a:hover {
         width: 20px!important;
         position: relative;
         top: 170px;
-        left: -82px;
+        left: -70px;
     }
     .verticalDiv img{
         position: relative;
@@ -1329,7 +1330,7 @@ header a:hover {
     #instagram{
         position: relative;
         top: 170px;
-        left: -134px;
+        left: -120px;
         height: 20px;
         width: auto;
     
