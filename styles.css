@@ -937,7 +937,7 @@ body{
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
-        height: 210px;
+        height: 250px;
         width: 162px;
     }
     .burger-menu .dropdown-content a {
@@ -1120,7 +1120,7 @@ header a:hover {
     }   
     #linkedin{
         position: relative;
-        top: 170px;
+        top: 61%;
         left: -250px;
         height: 20px;
         width: auto;
@@ -1293,14 +1293,12 @@ header a:hover {
         margin-top: 35px;
         margin-bottom: 50px;
     }
-    #networkingbtn{
-        display: none;
-    }
+   
     #maplogo{
         height: auto;
         width: 20px!important;
         position: relative;
-        top: 170px;
+        top: 61%;
         left: -82px;
     }
     .verticalDiv img{
