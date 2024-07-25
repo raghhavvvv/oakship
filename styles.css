@@ -1120,7 +1120,7 @@ header a:hover {
     }   
     #linkedin{
         position: relative;
-        top: 61%;
+        top: 170px;
         left: -250px;
         height: 20px;
         width: auto;
@@ -1298,7 +1298,7 @@ header a:hover {
         height: auto;
         width: 20px!important;
         position: relative;
-        top: 61%;
+        top: 170px;
         left: -82px;
     }
     .verticalDiv img{
