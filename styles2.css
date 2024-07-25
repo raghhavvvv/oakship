@@ -321,7 +321,7 @@ header{
     font-family: Istok Web,sans-serif;
 }
 .right-form{
-    display: inline-block; background-color: white; border-radius: 8px; padding: 20px; font-family: 'Istok Web', sans-serif; margin-left: 15%;margin-right: 7%;margin-top:100px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);height:480;
+    display: inline-block; background-color: white; border-radius: 8px; padding: 20px; font-family: 'Istok Web', sans-serif; margin-left: 15%;margin-right: 7%;margin-top:100px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);height: 480;
 }
 html{
     scroll-behavior: smooth;
@@ -389,7 +389,7 @@ html{
         display: block; /* Show burger icon */
         position: relative;
         top: 0px;
-        right: -35vw;
+        right: -170px;
         font-size: 30px;
         color:#151266;
     }
@@ -408,7 +408,7 @@ html{
         text-decoration: none;
         display: block;
         position: relative;
-        left: -7vw;
+        left: -10px;
         text-align: center;
   
     }
@@ -484,7 +484,7 @@ header a:hover {
         display: block;
         padding: 10px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         position: relative;
         top: -5px;
         margin-top: 0px;
@@ -600,28 +600,25 @@ header a:hover {
     }
     
     .alsovalids{
-        display: none;
+        display: inline-block;
+        margin: 0px!important;
       
     }   
     #linkedin{
-        top: -1%;
-        left: -25px;
+        position: relative;
+        top: 200px;
+        left: -250px;
+        height: 20px;
+        width: auto;
     }
     #facebook{
-        top: -1%;
-        left: -22px;
-    }
-    .bottomright{
         position: relative;
-        top: -100%;
-        left: 50px;
-        text-align: right;
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 50px;
-        width: 150px;
-        
+        top: 200px;
+        left: -195px;
+        height: 20px;
+        width: auto;
     }
+    
     .logo-link img{
         width: 150px;
         height: auto;
@@ -636,14 +633,14 @@ header a:hover {
         height: 20px;
         margin: 0px;
         position: relative;
-        top: 30px;
+        top: 10px;
         left: -5px;
         margin-top: 25px;
     }
     .bottomright p {
         height: 70px;
         position: relative;
-        top: 30px;
+        top: 10px;
         left: 45px;
         text-align: center;
         font-size: 12px;
@@ -651,7 +648,7 @@ header a:hover {
     }
     .footerhr{
         position: relative;
-        top: 150px;
+        top: 200px;
     }
     .socials{
         display: none;
@@ -685,24 +682,32 @@ header a:hover {
         width: 20px!important;
         height: auto;
         position: relative;
-        top: -57px;
-        left: -10px;
+        top: 200px;
+        left: -90px;
     }
     #quicklinks{
         display: none;
     }
     #copyrights{
-        font-size: 7px;
+        font-size: 6px;
         position: relative;
-        top: 160px!important;
+        top: 210px!important;
         left: 60px!important;
     }
     .bottomright{
         position: relative;
-        top: -30px!important;
+        top: -15px!important;
         left: 0px!important;
         width: 100%;
         height: 100px;
+    }
+    #instagram{
+        position: relative;
+        top: 200px;
+        left: -139px;
+        height: 20px;
+        width: auto;
+    
     }
 }
 @media (min-width: 1080px){
