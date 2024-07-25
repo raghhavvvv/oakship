@@ -946,7 +946,7 @@ body{
         text-decoration: none;
         display: block;
         position: relative;
-        left: -7vw;
+        left: -6vw;
         text-align: center;
         margin: 0px;
   
@@ -1115,26 +1115,22 @@ header a:hover {
     }
     
     .alsovalids{
-        display: none;
+        display: inline-block;
+        margin: 0px!important;
     }   
     #linkedin{
-        top: 95%;
-        left: -155px;
+        position: relative;
+        top: 61%;
+        left: -250px;
+        height: 20px;
+        width: auto;
     }
     #facebook{
-        top: 95%;
-        left: -90px;
-    }
-    .bottomright{
         position: relative;
-        top: -100%;
-        left: 50px;
-        text-align: right;
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 50px;
-        width: 150px;
-        
+        top: 170px;
+        left: -191px;
+        height: 20px;
+        width: auto;
     }
     .valids{
         border: 1px solid lightgray;
@@ -1158,14 +1154,14 @@ header a:hover {
         height: 20px;
         margin: 0px;
         position: relative;
-        top: -25px;
+        top: 5px;
         left: -5px;
-        margin-top: 25px;
+        margin-top: 20px;
     }
     .bottomright p {
-        height: 120px;
+        height: 90px;
         position: relative;
-        top: -25px;
+        top: 5px;
         left: 45px;
         text-align: center;
         font-size: 12px;
@@ -1173,7 +1169,7 @@ header a:hover {
     }
     .footerhr{
         position: relative;
-        top: 120px;
+        top: 170px;
         display: block;
     }
     .socials{
@@ -1250,21 +1246,27 @@ header a:hover {
         font-size: 10px; /* Adjust as needed */
         font-weight: bold; /* Adjust as needed */
         color: white; /* Adjust as needed */
+        margin-bottom: 10px;
         margin-top: 40px;
     }
     .world-map{
+        display: block;
+    }
+    .pin{
         display: none;
     }
     #network{
-        display: none;
+        display: block;
+        font-size: 28px!important;
+        margin-top: 20px;
     }
     .footer{
-        height: 250px;
+        height: 300px;
         flex-direction: 0;
         flex: 0;
     }
     .footer-content{
-        height: 200px;
+        height: 300px;
     }
     #finalhr{
         display: none;
@@ -1283,7 +1285,7 @@ header a:hover {
     #ourservices{
         font-size: 28px!important;
         margin-top: 0px!important;
-        padding-top:50px;
+        padding-top: 50px;
     }
     #intro1{
         width: 75%;
@@ -1298,21 +1300,22 @@ header a:hover {
         height: auto;
         width: 20px!important;
         position: relative;
-        top: 64%;
-        left: -90px;
+        top: 61%;
+        left: -82px;
     }
     .verticalDiv img{
         position: relative;
         top: 15%;
     }
     #baseDiv{
-        background-size: 100% 100%;
+        background-size: cover;
+      
     }
     #copyrights{
         position: relative;
         height: 10px;
-        top: 160px!important;
-        font-size: 7px;
+        top: 180px!important;
+        font-size: 6px;
         left: 60px!important;
     }
     #quicklinks{
@@ -1320,10 +1323,18 @@ header a:hover {
     }
     .bottomright{
         position: relative;
-        top: -0px!important;
+        top: -48px!important;
         left: 0px!important;
         width: 100%;
-        height: 100px;
+        height: 105px;
+    }
+    #instagram{
+        position: relative;
+        top: 170px;
+        left: -134px;
+        height: 20px;
+        width: auto;
+    
     }
     
 
