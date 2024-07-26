@@ -1335,6 +1335,9 @@ header a:hover {
         width: auto;
     
     }
+    #mapimage{
+        margin-top : 50px!important;
+    }
     
 
 }
